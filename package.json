@@ -6,7 +6,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "npm version patch && git push origin master && git push origin --tags",
@@ -29,5 +28,9 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
     "@varnxy/logger": "^1.1.2"
+  },
+  "homepage": "https://github.com/jiajiajia343434/picgo-plugin-nextcloud-uploader",
+  "bugs": {
+    "url": "https://github.com/jiajiajia343434/picgo-plugin-nextcloud-uploader/issues"
   }
 }
