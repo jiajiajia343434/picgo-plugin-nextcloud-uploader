@@ -106,3 +106,6 @@ dist
 # Idea config
 *.iml
 .idea/
+
+# MacOS
+.DS_Store
