@@ -80,7 +80,7 @@ module.exports = (ctx) => {
         }
         await ctx.Request.request({
           method: 'put',
-          url: `${host}/remote.php/dav/files/${user}/${path}/${encodeURI(image.fileName)}`,
+          url: `${host}/remote.php/dav/files/${user}/${encodeURI(path)}/${encodeURI(image.fileName)}`,
           auth: auth,
           headers: {
             ...publicHeaders,
@@ -116,7 +116,7 @@ module.exports = (ctx) => {
         } else {
           await ctx.Request.request({
             method: 'delete',
-            url: `${host}/remote.php/dav/files/${user}/${path}/${encodeURI(image.fileName)}`,
+            url: `${host}/remote.php/dav/files/${user}/${encodeURI(path)}/${encodeURI(image.fileName)}`,
             auth: auth,
             headers: {
               ...publicHeaders

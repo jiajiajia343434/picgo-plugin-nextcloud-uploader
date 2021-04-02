@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-nextcloud-uploader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "PicGo with NextCloud",
   "main": "src/index.js",
   "publishConfig": {
